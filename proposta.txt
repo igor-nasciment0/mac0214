@@ -29,7 +29,7 @@ Planejamento Mensal
 ================================================= Setembro =================================================
 
 
-31/08 -- 06/09 | Two Pointers e Sliding Window (7h)
+31/08 -- 06/09 | Two Pointers e Sliding Window (9h)
     Estudo Individual (4h):
         Leitura CPH: Capítulo 8 (Amortized analysis).
         Foco: Iteração com dois ponteiros independentes e controle de estado em janela deslizante.
@@ -55,7 +55,7 @@ Planejamento Mensal
         Simulado (2.5h): Virtual Participation Codeforces Round 1059 (Div. 3).
         Revisão e Upsolving (30 min): Revisar/pesquisar resoluções e avaliar desempenho.
 
-21/09 -- 27/09 | Prog. Dinâmica Básica (1D e Grid) (7h)
+21/09 -- 27/09 | Prog. Dinâmica Básica (1D e Grid) (9h)
     Estudo Individual (4h):
         Leitura CPH: Capítulo 7 (Dynamic programming - Introdução e caminhos).
         Foco: Modelagem de transição DP[i] = DP[i - 1] + custo e caminhos em matrizes.
@@ -85,7 +85,7 @@ Planejamento Mensal
         Simulado (2.5h): Virtual Participation Educational Codeforces Round 188.
         Revisão e Upsolving (30 min): Revisar/pesquisar resoluções e avaliar desempenho.
 
-12/10 -- 18/10 | Travessias (DFS / BFS) e Componentes (7h)
+12/10 -- 18/10 | Travessias (DFS / BFS) e Componentes (9h)
     Estudo Individual (4h):
         Leitura CPH: Capítulos 11 (Basics of graphs) e 12 (Graph traversal).
         Foco: Implementação em listas de adjacência e grafos implícitos.
@@ -115,7 +115,7 @@ Planejamento Mensal
 ================================================= Novembro =================================================
 
 
-02/11 -- 08/11 | Consultas em Árvores (MST, Diâmetro e LCA) (7h)
+02/11 -- 08/11 | Consultas em Árvores (MST, Diâmetro e LCA) (9h)
     Estudo Individual (4h):
         Leitura CPH: Capítulos 14 (Tree algorithms) e 18 (Tree queries).
         Foco: Pré-processamento com Binary Lifting e diâmetro via DFS dupla.
@@ -141,7 +141,7 @@ Planejamento Mensal
         Simulado (2.5h): Virtual Participation Codeforces Round 1116 (Div. 2).
         Revisão e Upsolving (30 min): Revisar/pesquisar resoluções e avaliar desempenho.
 
-23/11 -- 29/11 | Algoritmos em Strings e Geometria Básica (7h)
+23/11 -- 29/11 | Algoritmos em Strings e Geometria Básica (9h)
     Estudo Individual (4h):
         Leitura CPH: Capítulos 26 (String algorithms) e 29 (Geometry).
         Foco: Rolling Hash em O(1) e uso de produto vetorial.
