@@ -1,6 +1,6 @@
 # Resumo da Proposta
 
-O presente projeto para a disciplina MAC0214 (Atividade Curricular em Cultura e Extensão) propõe um programa de treinamento em programação competitiva, com carga horária planejada de 105 horas distribuídas ao longo de 15 semanas. O trabalho será executado em equipe, em parceria com os colegas Bruno Rangel e Lucas de Azevedo. A metodologia do projeto é dividida em dois eixos: Fundamentação e Prática Individual, baseada na leitura da referência Competitive Programmer's Handbook (CPH) e na aplicação dos conceitos na resolução de problemas de plataformas como o CSES (https://cses.fi) e o AtCoder (https://atcoder.jp); e Simulação e Trabalho em Equipe, focado na participação virtual em competições e simulações de competições através da plataforma Codeforces (https://codeforces.com/), com dificuldade progressiva e sessões de revisão e estudo das resoluções oficiais. O objetivo central da proposta é desenvolver a capacidade de resolução de problemas computacionais sob restrições de tempo e memória, além de aprimorar o gerenciamento de tempo de máquina (divisão de teclado) e a habilidade de descrever verbalmente as soluções algorítmicas de maneira clara.
+O presente projeto para a disciplina MAC0214 (Atividade Curricular em Cultura e Extensão) propõe um programa de treinamento em programação competitiva, com carga horária planejada de 115 horas distribuídas ao longo de 15 semanas. O trabalho será executado em equipe, em parceria com os colegas Bruno Rangel e Lucas de Azevedo. A metodologia do projeto é dividida em dois eixos: Fundamentação e Prática Individual, baseada na leitura da referência Competitive Programmer's Handbook (CPH) e na aplicação dos conceitos na resolução de problemas de plataformas como o CSES (https://cses.fi) e o AtCoder (https://atcoder.jp); e Simulação e Trabalho em Equipe, focado na participação virtual em competições e simulações de competições através da plataforma Codeforces (https://codeforces.com/), com dificuldade progressiva e sessões de revisão e estudo das resoluções oficiais. O objetivo central da proposta é desenvolver a capacidade de resolução de problemas computacionais sob restrições de tempo e memória, além de aprimorar o gerenciamento de tempo de máquina (divisão de teclado) e a habilidade de descrever verbalmente as soluções algorítmicas de maneira clara.
 
 # Planejamento Mensal
 
@@ -26,7 +26,7 @@ O presente projeto para a disciplina MAC0214 (Atividade Curricular em Cultura e 
 
 ## Setembro
 
-### 31/08 -- 06/09 | Two Pointers e Sliding Window (7h)
+### 31/08 -- 06/09 | Two Pointers e Sliding Window (9h)
 - **Estudo Individual (4h):**
   - **Leitura CPH:** Capítulo 8 (Amortized analysis).
   - **Foco:** Iteração com dois ponteiros independentes e controle de estado em janela deslizante.
@@ -52,7 +52,7 @@ O presente projeto para a disciplina MAC0214 (Atividade Curricular em Cultura e 
   - **Simulado (2.5h):** Virtual Participation Codeforces Round 1059 (Div. 3).
   - **Revisão e Upsolving (30 min):** Revisar/pesquisar resoluções e avaliar desempenho.
 
-### 21/09 -- 27/09 | Prog. Dinâmica Básica (1D e Grid) (7h)
+### 21/09 -- 27/09 | Prog. Dinâmica Básica (1D e Grid) (9h)
 - **Estudo Individual (4h):**
   - **Leitura CPH:** Capítulo 7 (Dynamic programming - Introdução e caminhos).
   - **Foco:** Modelagem de transição DP[i] = DP[i - 1] + custo e caminhos em matrizes.
@@ -80,7 +80,7 @@ O presente projeto para a disciplina MAC0214 (Atividade Curricular em Cultura e 
   - **Simulado (2.5h):** Virtual Participation Educational Codeforces Round 188.
   - **Revisão e Upsolving (30 min):** Revisar/pesquisar resoluções e avaliar desempenho.
 
-### 12/10 -- 18/10 | Travessias (DFS / BFS) e Componentes (7h)
+### 12/10 -- 18/10 | Travessias (DFS / BFS) e Componentes (9h)
 - **Estudo Individual (4h):**
   - **Leitura CPH:** Capítulos 11 (Basics of graphs) e 12 (Graph traversal).
   - **Foco:** Implementação em listas de adjacência e grafos implícitos.
@@ -108,7 +108,7 @@ O presente projeto para a disciplina MAC0214 (Atividade Curricular em Cultura e 
 
 ## Novembro
 
-### 02/11 -- 08/11 | Consultas em Árvores (MST, Diâmetro e LCA) (7h)
+### 02/11 -- 08/11 | Consultas em Árvores (MST, Diâmetro e LCA) (9h)
 - **Estudo Individual (4h):**
   - **Leitura CPH:** Capítulos 14 (Tree algorithms) e 18 (Tree queries).
   - **Foco:** Pré-processamento com Binary Lifting e diâmetro via DFS dupla.
@@ -134,7 +134,7 @@ O presente projeto para a disciplina MAC0214 (Atividade Curricular em Cultura e 
   - **Simulado (2.5h):** Virtual Participation Codeforces Round 1116 (Div. 2).
   - **Revisão e Upsolving (30 min):** Revisar/pesquisar resoluções e avaliar desempenho.
 
-### 23/11 -- 29/11 | Algoritmos em Strings e Geometria Básica (7h)
+### 23/11 -- 29/11 | Algoritmos em Strings e Geometria Básica (9h)
 - **Estudo Individual (4h):**
   - **Leitura CPH:** Capítulos 26 (String algorithms) e 29 (Geometry).
   - **Foco:** Rolling Hash em O(1) e uso de produto vetorial.
