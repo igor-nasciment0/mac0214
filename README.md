@@ -2,6 +2,8 @@
 
 O presente projeto para a disciplina MAC0214 (Atividade Curricular em Cultura e Extensão) propõe um programa de treinamento em programação competitiva, com carga horária planejada de 115 horas distribuídas ao longo de 15 semanas. O trabalho será executado em equipe, em parceria com os colegas Bruno Rangel e Lucas de Azevedo. A metodologia do projeto é dividida em dois eixos: Fundamentação e Prática Individual, baseada na leitura da referência Competitive Programmer's Handbook (CPH) e na aplicação dos conceitos na resolução de problemas de plataformas como o CSES (https://cses.fi) e o AtCoder (https://atcoder.jp); e Simulação e Trabalho em Equipe, focado na participação virtual em competições e simulações de competições através da plataforma Codeforces (https://codeforces.com/), com dificuldade progressiva e sessões de revisão e estudo das resoluções oficiais. O objetivo central da proposta é desenvolver a capacidade de resolução de problemas computacionais sob restrições de tempo e memória, além de aprimorar o gerenciamento de tempo de máquina (divisão de teclado) e a habilidade de descrever verbalmente as soluções algorítmicas de maneira clara.
 
+- Orientador: Yan Couto (yancouto@ime.usp.br)
+
 # Planejamento Mensal
 
 ## Agosto
