@@ -18,4 +18,4 @@ endef
 $(foreach goal,$(BUILD_GOALS),$(eval $(call COMPILE_RULE,$(goal))))
 
 clean:
-	rm -f $(basename $(notdir $(wildcard */*.cpp)))
+	find . -maxdepth 1 -type f ! -name "*.*" ! -name makefile -delete
