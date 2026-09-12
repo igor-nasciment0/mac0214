@@ -1,5 +1,5 @@
 CXX := g++
-CXXFLAGS := -std=c++17 -g -O0 -Wall -Wextra -pedantic
+CXXFLAGS := -std=c++20 -g -O3 -Wall -Wextra -pedantic
 
 .PHONY: all clean FORCE
 
