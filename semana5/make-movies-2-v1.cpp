@@ -5,6 +5,10 @@
 using namespace std;
 typedef long long ll;
 
+/*
+    This version does not work, as most times we don't want the guy with most available time to pick up the current movie -- instead, we often want the one with least available time.
+*/
+
 int main()
 {
     ll n, k;

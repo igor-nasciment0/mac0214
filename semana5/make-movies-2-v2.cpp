@@ -5,6 +5,12 @@
 using namespace std;
 typedef long long ll;
 
+/*
+    For this one, it was necessary to adjust the "scarcity" criteria the greedy approach manages.
+
+    Here, we need to ensure the club members pass the least possible time without watching. To that end, for each new movie, this version of the code always pick up the club member whose free time starts the most closely possible of the movie's beginning time. This ensures the minium ociosity.
+*/
+
 int main()
 {
     ll n, k;
@@ -19,40 +25,30 @@ int main()
         movies.push_back({a, b});
     }
 
-    sort(movies.begin(), movies.end(), [](auto &a, auto &b) {
-        return a.second < b.second;
-    });
+    sort(movies.begin(), movies.end(), [](auto &a, auto &b)
+         { return a.second < b.second; });
 
-    cout << "==========\n";
-    for (auto m : movies)
-        cout << m.first << ": " << m.second << "\n";
+    multiset<ll> club_endings;
 
-
-    auto comp = [](const pair<ll,ll> &a, const pair<ll,ll> &b) {
-        return a.second > b.second;
-    };
-
-    priority_queue<pair<ll,ll>, vector<pair<ll,ll>>, decltype(comp)> club(comp);
-    
     for (ll i = 0; i < k; i++)
-        club.push({0, 0});    
+        club_endings.insert(0);
 
     ll count = 0;
 
     for (ll i = 0; i < n; i++)
     {
         auto movie = movies[i];
-        auto guy = club.top();
-    
-        if (guy.second <= movie.first)
-        {
-            count++;
-            guy.first = movie.first;
-            guy.second = movie.second;
-            club.pop();
-            club.push(guy);
-        }
+        auto guy = club_endings.upper_bound(movie.first);
+
+        if (guy == club_endings.begin())
+            continue;
+
+        guy = prev(guy);
+
+        count++;
+        club_endings.erase(guy);
+        club_endings.insert(movie.second);
     }
-    
+
     cout << count << "\n";
 }
