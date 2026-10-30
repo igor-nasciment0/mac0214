@@ -10,34 +10,33 @@ const ll BIG = 1e9 + 7;
 
 int main()
 {
-    ll n;
-    cin >> n;
+    ll t;
+    cin >> t;
 
-    for (ll row = 0; row < n; row++)
+    ll row = 1;
+    vector<vector<ll>> dp(1e6, vector<ll>(2, -1));
+    dp[0][0] = 1; // joined
+    dp[0][1] = 1; // divided
+
+    while (t--)
     {
+        ll n;
+        cin >> n;
+
+        if(dp[n-1][0] != -1)
+        {
+            cout << (dp[n - 1][0] + dp[n - 1][1]) % BIG << "\n";
+            continue;
+        }
+
+        for (; row < n; row++)
+        {
+            dp[row][0] = (dp[row - 1][0] * 2 + dp[row - 1][1]) % BIG;
+            dp[row][1] = (dp[row - 1][0] + dp[row - 1][1] * 4) % BIG;
+        }
+
+        cout << (dp[n - 1][0] + dp[n - 1][1]) % BIG << "\n";
     }
 
     return 0;
-}
-
-// ◣ ◢ ◤ ◥ U A C 3 ■ I
-ll num_ways(ll row_idx, ll n, pair<char, char> prev)
-{
-    ll num = 0;
-
-    if ((prev.first == '◣' && prev.second == '◢') || (prev.first == 'I' && prev.second == 'I'))
-    {
-        num += 2;
-
-        if (row_idx < n)
-            num += num_ways(row_idx + 1, n, {'I', 'I'});
-
-        num += num_ways(row_idx + 1, n, {'◤', '◥'});
-    }
-
-    if (condition)
-    {
-        /* code */
-    }
-    
 }
