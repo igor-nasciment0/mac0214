@@ -1,3 +1,5 @@
+// https://cses.fi/problemset/task/1145
+
 #include <bits/stdc++.h>
 
 typedef long long ll;
@@ -19,15 +21,15 @@ int main()
     for (size_t i = 0; i < n; i++)
     {
         ll elem = input[i];
-        ll index = 0;
+        ll index = stacks.size();
 
         for (ll k = stacks.size(); k >= 1; k /= 2)
         {
-            while(index + k < stacks.size() && stacks[index + k].top() >= elem)
-                index += k;
+            while (index - k >= 0 && stacks[index - k].top() >= elem)
+                index -= k;
         }
 
-        if (index == stacks.size() && stacks[index].top() < elem)
+        if (index >= stacks.size() || stacks[index].top() < elem)
         {
             stacks.push_back(stack<ll>());
             stacks[stacks.size() - 1].push(elem);
