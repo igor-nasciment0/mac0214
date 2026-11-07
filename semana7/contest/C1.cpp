@@ -1,4 +1,4 @@
-// https://cses.fi/problemset/task/0000
+// https://codeforces.com/contest/2254/problem/C1
 
 #include <bits/stdc++.h>
 
